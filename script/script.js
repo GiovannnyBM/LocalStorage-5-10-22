@@ -36,6 +36,6 @@ function extraerLocalstorage(){
     let mail = localStorage.getItem('Email')
     let dir = localStorage.getItem('Dirección')
     let city = localStorage.getItem('Ciudad')
-    alert('Bienvenido',nom,ape,user,mail,dir,city)
+    console.log('hi',nom)
 }
 
